@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>National Park Service API: Plan your vacation today!</title>
+    <meta name="description" content="National Park API">
+    <meta name="author" content="Marvin Tsang">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <h1>Find a national park in your state!</h1>
+        <h2>Search using your 2 letter state code or using the dropdown!</h2>
+    </div>
+    <div>
+        <form action="submit" id="parkSearchForm">
+            <input required type="text" id="stateSearch" name="stateSearch">Search using your states two letter abbreviation</input>
+            <input type="text" id="maxSearch" name="maxSearch" value="10">Max results to return</input>
+            <input type="submit" value="Search"></input>
+        </form>
+    </div>
+    <div class="searchResults">
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
